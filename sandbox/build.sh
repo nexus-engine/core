@@ -1,5 +1,5 @@
 #!/bin/bash
-# Build script for testbed
+# Build script for sandbox
 set echo on
 
 mkdir -p ../bin
@@ -9,7 +9,7 @@ cFilenames=$(find . -type f -name "*.c")
 
 # echo "Files:" $cFilenames
 
-assembly="testbed"
+assembly="sandbox"
 compilerFlags="-g -fdeclspec -fPIC" 
 # -fms-extensions 
 # -Wall -Werror
