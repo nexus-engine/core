@@ -61,6 +61,19 @@
         "vulkan_platform.h": "c",
         "renderer_frontend.h": "c",
         "defines.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "logger.h": "c",
+        "time.h": "c",
+        "string.h": "c",
+        "windows.h": "c",
+        "stdlib.h": "c",
+        "platform.h": "c",
+        "asserts.h": "c",
+        "application.h": "c",
+        "vector": "cpp",
+        "xmemory": "cpp",
+        "xstring": "cpp",
+        "game.h": "c",
+        "entry.h": "c"
     }
 }
